@@ -2,7 +2,6 @@ import re
 
 input = open('day3/input.txt','r').read()
 multiplications = re.findall('mul\(\d+[,]\d+\)', input)
-#print(result)
 results = []
 
 for i in range(len(multiplications)):
