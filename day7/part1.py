@@ -15,7 +15,7 @@ if __name__ == "__main__":
         valid_equation = False
        
         # create possible combinations of operators
-        operator = product(["*","+"], repeat=len(values)-1)
+        operator = product(["*","+","||"], repeat=len(values)-1)
         operator_combinations = list(operator)
 
         for ops in operator_combinations:
